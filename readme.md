@@ -12,3 +12,11 @@
   ローカル開発環境もMySQLでDockerイメージを作った方が良い。
   また、LightSailのRDSは、db nameに"db"という接頭辞が付くため、docker環境でもdatabase nameは
   "dbwordpress"のようにしておいた方が良い。
+
+  LightSailでEC2インスタンスをWordPressセットで作成した場合、デフォルトでユーザー名とパスワードが設定される。
+  user : user
+  passowr : →LightSailのEC2ダッシュボードの「Connect using SSH」でターミナルを起動し、
+            cat $HOME/bitnami_application_password
+            このコマンドでpasswordが表示される。
+
+# GitHub Actionsを使った自動デプロイ
