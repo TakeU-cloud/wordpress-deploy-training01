@@ -29,6 +29,8 @@
   GiHubにsecurityパラメーターをセットして、deploy.ymlをpushするだけ。
   スクリプトは基本的にscpとcacheクリアで行う。
 
+  ※GitLabの場合はCI/CDの設定が似てはいるが、少し違うと思うので、適宜対応してください。
+
 # LightSailのEC2インスタンスのWordPressから、LightSailのRDS（MySQL）に接続設定する
   RDSのNetworkingでpublicモードをONにする
   RDSのConnectでImportモードをONにする
