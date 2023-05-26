@@ -30,4 +30,3 @@ jobs:
         script: |
           cd /opt/bitnami/wordpress
           sudo -u bitnami wp cache flush
-
